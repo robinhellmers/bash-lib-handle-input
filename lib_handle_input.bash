@@ -40,6 +40,15 @@ init_lib
 ### Library start ###
 #####################
 
+###
+# List of functions for usage outside of lib
+#
+# - _handle_args()
+# - register_function_flags()
+# - handle_input_arrays_dynamically()
+# - valid_var_name()
+###
+
 # Process flags & non-optional arguments
 _handle_args()
 {
